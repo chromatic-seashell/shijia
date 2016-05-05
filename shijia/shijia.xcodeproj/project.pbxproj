@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A57F311CDBA26B005BEE8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F301CDBA26B005BEE8C /* main.m */; };
+		18A57F341CDBA26B005BEE8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F331CDBA26B005BEE8C /* AppDelegate.m */; };
+		18A57F371CDBA26B005BEE8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F361CDBA26B005BEE8C /* ViewController.m */; };
+		18A57F3A1CDBA26B005BEE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A57F381CDBA26B005BEE8C /* Main.storyboard */; };
+		18A57F3C1CDBA26B005BEE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A57F3B1CDBA26B005BEE8C /* Assets.xcassets */; };
+		18A57F3F1CDBA26B005BEE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A57F3D1CDBA26B005BEE8C /* LaunchScreen.storyboard */; };
+		18A57F4A1CDBA26B005BEE8C /* shijiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F491CDBA26B005BEE8C /* shijiaTests.m */; };
+		18A57F551CDBA26B005BEE8C /* shijiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F541CDBA26B005BEE8C /* shijiaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A57F461CDBA26B005BEE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A57F241CDBA26B005BEE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A57F2B1CDBA26B005BEE8C;
+			remoteInfo = shijia;
+		};
+		18A57F511CDBA26B005BEE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A57F241CDBA26B005BEE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A57F2B1CDBA26B005BEE8C;
+			remoteInfo = shijia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A57F2C1CDBA26B005BEE8C /* shijia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shijia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A57F301CDBA26B005BEE8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A57F321CDBA26B005BEE8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A57F331CDBA26B005BEE8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A57F351CDBA26B005BEE8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A57F361CDBA26B005BEE8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A57F391CDBA26B005BEE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A57F3B1CDBA26B005BEE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A57F3E1CDBA26B005BEE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A57F401CDBA26B005BEE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A57F451CDBA26B005BEE8C /* shijiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shijiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A57F491CDBA26B005BEE8C /* shijiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shijiaTests.m; sourceTree = "<group>"; };
+		18A57F4B1CDBA26B005BEE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A57F501CDBA26B005BEE8C /* shijiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shijiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A57F541CDBA26B005BEE8C /* shijiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shijiaUITests.m; sourceTree = "<group>"; };
+		18A57F561CDBA26B005BEE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A57F291CDBA26B005BEE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A57F421CDBA26B005BEE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A57F4D1CDBA26B005BEE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A57F231CDBA26B005BEE8C = {
+			isa = PBXGroup;
+			children = (
+				18A57F2E1CDBA26B005BEE8C /* shijia */,
+				18A57F481CDBA26B005BEE8C /* shijiaTests */,
+				18A57F531CDBA26B005BEE8C /* shijiaUITests */,
+				18A57F2D1CDBA26B005BEE8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A57F2D1CDBA26B005BEE8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A57F2C1CDBA26B005BEE8C /* shijia.app */,
+				18A57F451CDBA26B005BEE8C /* shijiaTests.xctest */,
+				18A57F501CDBA26B005BEE8C /* shijiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A57F2E1CDBA26B005BEE8C /* shijia */ = {
+			isa = PBXGroup;
+			children = (
+				18A57F321CDBA26B005BEE8C /* AppDelegate.h */,
+				18A57F331CDBA26B005BEE8C /* AppDelegate.m */,
+				18A57F351CDBA26B005BEE8C /* ViewController.h */,
+				18A57F361CDBA26B005BEE8C /* ViewController.m */,
+				18A57F381CDBA26B005BEE8C /* Main.storyboard */,
+				18A57F3B1CDBA26B005BEE8C /* Assets.xcassets */,
+				18A57F3D1CDBA26B005BEE8C /* LaunchScreen.storyboard */,
+				18A57F401CDBA26B005BEE8C /* Info.plist */,
+				18A57F2F1CDBA26B005BEE8C /* Supporting Files */,
+			);
+			path = shijia;
+			sourceTree = "<group>";
+		};
+		18A57F2F1CDBA26B005BEE8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A57F301CDBA26B005BEE8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A57F481CDBA26B005BEE8C /* shijiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A57F491CDBA26B005BEE8C /* shijiaTests.m */,
+				18A57F4B1CDBA26B005BEE8C /* Info.plist */,
+			);
+			path = shijiaTests;
+			sourceTree = "<group>";
+		};
+		18A57F531CDBA26B005BEE8C /* shijiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A57F541CDBA26B005BEE8C /* shijiaUITests.m */,
+				18A57F561CDBA26B005BEE8C /* Info.plist */,
+			);
+			path = shijiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A57F2B1CDBA26B005BEE8C /* shijia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A57F591CDBA26B005BEE8C /* Build configuration list for PBXNativeTarget "shijia" */;
+			buildPhases = (
+				18A57F281CDBA26B005BEE8C /* Sources */,
+				18A57F291CDBA26B005BEE8C /* Frameworks */,
+				18A57F2A1CDBA26B005BEE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shijia;
+			productName = shijia;
+			productReference = 18A57F2C1CDBA26B005BEE8C /* shijia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A57F441CDBA26B005BEE8C /* shijiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A57F5C1CDBA26B005BEE8C /* Build configuration list for PBXNativeTarget "shijiaTests" */;
+			buildPhases = (
+				18A57F411CDBA26B005BEE8C /* Sources */,
+				18A57F421CDBA26B005BEE8C /* Frameworks */,
+				18A57F431CDBA26B005BEE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A57F471CDBA26B005BEE8C /* PBXTargetDependency */,
+			);
+			name = shijiaTests;
+			productName = shijiaTests;
+			productReference = 18A57F451CDBA26B005BEE8C /* shijiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A57F4F1CDBA26B005BEE8C /* shijiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A57F5F1CDBA26B005BEE8C /* Build configuration list for PBXNativeTarget "shijiaUITests" */;
+			buildPhases = (
+				18A57F4C1CDBA26B005BEE8C /* Sources */,
+				18A57F4D1CDBA26B005BEE8C /* Frameworks */,
+				18A57F4E1CDBA26B005BEE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A57F521CDBA26B005BEE8C /* PBXTargetDependency */,
+			);
+			name = shijiaUITests;
+			productName = shijiaUITests;
+			productReference = 18A57F501CDBA26B005BEE8C /* shijiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A57F241CDBA26B005BEE8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18A57F2B1CDBA26B005BEE8C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PSWDJYT9P2;
+					};
+					18A57F441CDBA26B005BEE8C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PSWDJYT9P2;
+						TestTargetID = 18A57F2B1CDBA26B005BEE8C;
+					};
+					18A57F4F1CDBA26B005BEE8C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PSWDJYT9P2;
+						TestTargetID = 18A57F2B1CDBA26B005BEE8C;
+					};
+				};
+			};
+			buildConfigurationList = 18A57F271CDBA26B005BEE8C /* Build configuration list for PBXProject "shijia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A57F231CDBA26B005BEE8C;
+			productRefGroup = 18A57F2D1CDBA26B005BEE8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A57F2B1CDBA26B005BEE8C /* shijia */,
+				18A57F441CDBA26B005BEE8C /* shijiaTests */,
+				18A57F4F1CDBA26B005BEE8C /* shijiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A57F2A1CDBA26B005BEE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A57F3F1CDBA26B005BEE8C /* LaunchScreen.storyboard in Resources */,
+				18A57F3C1CDBA26B005BEE8C /* Assets.xcassets in Resources */,
+				18A57F3A1CDBA26B005BEE8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A57F431CDBA26B005BEE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A57F4E1CDBA26B005BEE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A57F281CDBA26B005BEE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A57F371CDBA26B005BEE8C /* ViewController.m in Sources */,
+				18A57F341CDBA26B005BEE8C /* AppDelegate.m in Sources */,
+				18A57F311CDBA26B005BEE8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A57F411CDBA26B005BEE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A57F4A1CDBA26B005BEE8C /* shijiaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A57F4C1CDBA26B005BEE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A57F551CDBA26B005BEE8C /* shijiaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A57F471CDBA26B005BEE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A57F2B1CDBA26B005BEE8C /* shijia */;
+			targetProxy = 18A57F461CDBA26B005BEE8C /* PBXContainerItemProxy */;
+		};
+		18A57F521CDBA26B005BEE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A57F2B1CDBA26B005BEE8C /* shijia */;
+			targetProxy = 18A57F511CDBA26B005BEE8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A57F381CDBA26B005BEE8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A57F391CDBA26B005BEE8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A57F3D1CDBA26B005BEE8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A57F3E1CDBA26B005BEE8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A57F571CDBA26B005BEE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A57F581CDBA26B005BEE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A57F5A1CDBA26B005BEE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shijia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yht.shijia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A57F5B1CDBA26B005BEE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shijia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yht.shijia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A57F5D1CDBA26B005BEE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shijiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yht.shijiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shijia.app/shijia";
+			};
+			name = Debug;
+		};
+		18A57F5E1CDBA26B005BEE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shijiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yht.shijiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shijia.app/shijia";
+			};
+			name = Release;
+		};
+		18A57F601CDBA26B005BEE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = shijiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yht.shijiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = shijia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18A57F611CDBA26B005BEE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = shijiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yht.shijiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = shijia;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A57F271CDBA26B005BEE8C /* Build configuration list for PBXProject "shijia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A57F571CDBA26B005BEE8C /* Debug */,
+				18A57F581CDBA26B005BEE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A57F591CDBA26B005BEE8C /* Build configuration list for PBXNativeTarget "shijia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A57F5A1CDBA26B005BEE8C /* Debug */,
+				18A57F5B1CDBA26B005BEE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A57F5C1CDBA26B005BEE8C /* Build configuration list for PBXNativeTarget "shijiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A57F5D1CDBA26B005BEE8C /* Debug */,
+				18A57F5E1CDBA26B005BEE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A57F5F1CDBA26B005BEE8C /* Build configuration list for PBXNativeTarget "shijiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A57F601CDBA26B005BEE8C /* Debug */,
+				18A57F611CDBA26B005BEE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A57F241CDBA26B005BEE8C /* Project object */;
+}
