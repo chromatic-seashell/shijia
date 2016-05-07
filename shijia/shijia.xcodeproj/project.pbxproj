@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1860504B1CDC56EA00944E8A /* GDWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860504A1CDC56EA00944E8A /* GDWTabBarController.m */; };
+		1860504E1CDD841B00944E8A /* GDWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860504D1CDD841B00944E8A /* GDWHomeViewController.m */; };
+		186050511CDD853300944E8A /* GDWTeachPositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050501CDD853300944E8A /* GDWTeachPositionController.m */; };
+		186050541CDD856800944E8A /* GDWDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050531CDD856800944E8A /* GDWDiscoverController.m */; };
+		186050571CDD858300944E8A /* GDWMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050561CDD858300944E8A /* GDWMineController.m */; };
+		1860505A1CDD85BA00944E8A /* GDWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050591CDD85BA00944E8A /* GDWNavigationController.m */; };
 		18A57F311CDBA26B005BEE8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F301CDBA26B005BEE8C /* main.m */; };
 		18A57F341CDBA26B005BEE8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F331CDBA26B005BEE8C /* AppDelegate.m */; };
 		18A57F371CDBA26B005BEE8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F361CDBA26B005BEE8C /* ViewController.m */; };
@@ -15,6 +21,7 @@
 		18A57F3F1CDBA26B005BEE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A57F3D1CDBA26B005BEE8C /* LaunchScreen.storyboard */; };
 		18A57F4A1CDBA26B005BEE8C /* shijiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F491CDBA26B005BEE8C /* shijiaTests.m */; };
 		18A57F551CDBA26B005BEE8C /* shijiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F541CDBA26B005BEE8C /* shijiaUITests.m */; };
+		ED12DA301A16BBE6FE454A12 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BE102BF0AC00887AB28FD5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186050491CDC56EA00944E8A /* GDWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTabBarController.h; sourceTree = "<group>"; };
+		1860504A1CDC56EA00944E8A /* GDWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTabBarController.m; sourceTree = "<group>"; };
+		1860504C1CDD841B00944E8A /* GDWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWHomeViewController.h; sourceTree = "<group>"; };
+		1860504D1CDD841B00944E8A /* GDWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWHomeViewController.m; sourceTree = "<group>"; };
+		1860504F1CDD853300944E8A /* GDWTeachPositionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTeachPositionController.h; sourceTree = "<group>"; };
+		186050501CDD853300944E8A /* GDWTeachPositionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTeachPositionController.m; sourceTree = "<group>"; };
+		186050521CDD856800944E8A /* GDWDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWDiscoverController.h; sourceTree = "<group>"; };
+		186050531CDD856800944E8A /* GDWDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWDiscoverController.m; sourceTree = "<group>"; };
+		186050551CDD858300944E8A /* GDWMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWMineController.h; sourceTree = "<group>"; };
+		186050561CDD858300944E8A /* GDWMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWMineController.m; sourceTree = "<group>"; };
+		186050581CDD85BA00944E8A /* GDWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWNavigationController.h; sourceTree = "<group>"; };
+		186050591CDD85BA00944E8A /* GDWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWNavigationController.m; sourceTree = "<group>"; };
 		18A57F2C1CDBA26B005BEE8C /* shijia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shijia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A57F301CDBA26B005BEE8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18A57F321CDBA26B005BEE8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +70,9 @@
 		18A57F501CDBA26B005BEE8C /* shijiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shijiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A57F541CDBA26B005BEE8C /* shijiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shijiaUITests.m; sourceTree = "<group>"; };
 		18A57F561CDBA26B005BEE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8A31BD41DF6E02262D1A726 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BE102BF0AC00887AB28FD5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06F4EA83DB45CB7F672826F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED12DA301A16BBE6FE454A12 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,186 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		186050341CDC31C800944E8A /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				186050391CDC31C800944E8A /* 我的 */,
+				186050351CDC31C800944E8A /* 发现 */,
+				1860503D1CDC31C800944E8A /* 教学点 */,
+				186050411CDC31C800944E8A /* 首页 */,
+				186050451CDC52FA00944E8A /* main */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		186050351CDC31C800944E8A /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				186050361CDC31C800944E8A /* controller */,
+				186050371CDC31C800944E8A /* model */,
+				186050381CDC31C800944E8A /* view */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		186050361CDC31C800944E8A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				186050521CDD856800944E8A /* GDWDiscoverController.h */,
+				186050531CDD856800944E8A /* GDWDiscoverController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		186050371CDC31C800944E8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		186050381CDC31C800944E8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		186050391CDC31C800944E8A /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				1860503A1CDC31C800944E8A /* controller */,
+				1860503B1CDC31C800944E8A /* model */,
+				1860503C1CDC31C800944E8A /* view */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		1860503A1CDC31C800944E8A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				186050551CDD858300944E8A /* GDWMineController.h */,
+				186050561CDD858300944E8A /* GDWMineController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1860503B1CDC31C800944E8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		1860503C1CDC31C800944E8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1860503D1CDC31C800944E8A /* 教学点 */ = {
+			isa = PBXGroup;
+			children = (
+				1860503E1CDC31C800944E8A /* controller */,
+				1860503F1CDC31C800944E8A /* model */,
+				186050401CDC31C800944E8A /* view */,
+			);
+			path = "教学点";
+			sourceTree = "<group>";
+		};
+		1860503E1CDC31C800944E8A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1860504F1CDD853300944E8A /* GDWTeachPositionController.h */,
+				186050501CDD853300944E8A /* GDWTeachPositionController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1860503F1CDC31C800944E8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		186050401CDC31C800944E8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		186050411CDC31C800944E8A /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				186050421CDC31C800944E8A /* controller */,
+				186050431CDC31C800944E8A /* model */,
+				186050441CDC31C800944E8A /* view */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		186050421CDC31C800944E8A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1860504C1CDD841B00944E8A /* GDWHomeViewController.h */,
+				1860504D1CDD841B00944E8A /* GDWHomeViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		186050431CDC31C800944E8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		186050441CDC31C800944E8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		186050451CDC52FA00944E8A /* main */ = {
+			isa = PBXGroup;
+			children = (
+				186050461CDC52FA00944E8A /* controller */,
+				186050471CDC52FA00944E8A /* model */,
+				186050481CDC52FA00944E8A /* view */,
+			);
+			name = main;
+			path = "首页/main";
+			sourceTree = "<group>";
+		};
+		186050461CDC52FA00944E8A /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				186050491CDC56EA00944E8A /* GDWTabBarController.h */,
+				1860504A1CDC56EA00944E8A /* GDWTabBarController.m */,
+				186050581CDD85BA00944E8A /* GDWNavigationController.h */,
+				186050591CDD85BA00944E8A /* GDWNavigationController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		186050471CDC52FA00944E8A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		186050481CDC52FA00944E8A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		18A57F231CDBA26B005BEE8C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +288,8 @@
 				18A57F481CDBA26B005BEE8C /* shijiaTests */,
 				18A57F531CDBA26B005BEE8C /* shijiaUITests */,
 				18A57F2D1CDBA26B005BEE8C /* Products */,
+				AED625459CD301C83A9FA2A7 /* Pods */,
+				DC00E49AEB881F457CF1DD87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +306,7 @@
 		18A57F2E1CDBA26B005BEE8C /* shijia */ = {
 			isa = PBXGroup;
 			children = (
+				186050341CDC31C800944E8A /* classes */,
 				18A57F321CDBA26B005BEE8C /* AppDelegate.h */,
 				18A57F331CDBA26B005BEE8C /* AppDelegate.m */,
 				18A57F351CDBA26B005BEE8C /* ViewController.h */,
@@ -140,6 +346,23 @@
 			path = shijiaUITests;
 			sourceTree = "<group>";
 		};
+		AED625459CD301C83A9FA2A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8A31BD41DF6E02262D1A726 /* Pods.debug.xcconfig */,
+				F06F4EA83DB45CB7F672826F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC00E49AEB881F457CF1DD87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5BE102BF0AC00887AB28FD5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A57F591CDBA26B005BEE8C /* Build configuration list for PBXNativeTarget "shijia" */;
 			buildPhases = (
+				345096355CDDB349B114A525 /* Check Pods Manifest.lock */,
 				18A57F281CDBA26B005BEE8C /* Sources */,
 				18A57F291CDBA26B005BEE8C /* Frameworks */,
 				18A57F2A1CDBA26B005BEE8C /* Resources */,
+				177C65C1BA34A3AB08DCCAA9 /* Embed Pods Frameworks */,
+				F51CADEAA8397E3A5293825F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +428,7 @@
 		18A57F241CDBA26B005BEE8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GDW;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
@@ -268,6 +495,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		177C65C1BA34A3AB08DCCAA9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		345096355CDDB349B114A525 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F51CADEAA8397E3A5293825F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18A57F281CDBA26B005BEE8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +551,12 @@
 				18A57F371CDBA26B005BEE8C /* ViewController.m in Sources */,
 				18A57F341CDBA26B005BEE8C /* AppDelegate.m in Sources */,
 				18A57F311CDBA26B005BEE8C /* main.m in Sources */,
+				1860505A1CDD85BA00944E8A /* GDWNavigationController.m in Sources */,
+				186050541CDD856800944E8A /* GDWDiscoverController.m in Sources */,
+				1860504E1CDD841B00944E8A /* GDWHomeViewController.m in Sources */,
+				186050571CDD858300944E8A /* GDWMineController.m in Sources */,
+				1860504B1CDC56EA00944E8A /* GDWTabBarController.m in Sources */,
+				186050511CDD853300944E8A /* GDWTeachPositionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +695,11 @@
 		};
 		18A57F5A1CDBA26B005BEE8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8A31BD41DF6E02262D1A726 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = shijia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yht.shijia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,9 +708,11 @@
 		};
 		18A57F5B1CDBA26B005BEE8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F06F4EA83DB45CB7F672826F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = shijia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yht.shijia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -501,6 +786,7 @@
 				18A57F5B1CDBA26B005BEE8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A57F5C1CDBA26B005BEE8C /* Build configuration list for PBXNativeTarget "shijiaTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +795,7 @@
 				18A57F5E1CDBA26B005BEE8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A57F5F1CDBA26B005BEE8C /* Build configuration list for PBXNativeTarget "shijiaUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +804,7 @@
 				18A57F611CDBA26B005BEE8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
