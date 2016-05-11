@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183C42011CDED0A600ED20F3 /* DataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42001CDED0A600ED20F3 /* DataTool.m */; };
+		183C42051CDED1D600ED20F3 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42041CDED1D600ED20F3 /* NSDictionary+JSON.m */; };
+		183C42081CDED23200ED20F3 /* NSString+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42071CDED23200ED20F3 /* NSString+JSON.m */; };
+		183C420A1CDED9FD00ED20F3 /* 钢琴课老师信息.plist in Resources */ = {isa = PBXBuildFile; fileRef = 183C42091CDED9FD00ED20F3 /* 钢琴课老师信息.plist */; };
+		183C420D1CDF479500ED20F3 /* GDWTeacherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C420C1CDF479500ED20F3 /* GDWTeacherModel.m */; };
+		183C420F1CDF528400ED20F3 /* 教学秀和推荐活动 in Resources */ = {isa = PBXBuildFile; fileRef = 183C420E1CDF528400ED20F3 /* 教学秀和推荐活动 */; };
+		183C42111CDF53D400ED20F3 /* 教学秀和推荐活动.plist in Resources */ = {isa = PBXBuildFile; fileRef = 183C42101CDF53D400ED20F3 /* 教学秀和推荐活动.plist */; };
+		183C42141CDF55B900ED20F3 /* GDWTeachPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42131CDF55B900ED20F3 /* GDWTeachPictureModel.m */; };
+		183C42171CDF578F00ED20F3 /* GDWEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42161CDF578F00ED20F3 /* GDWEventModel.m */; };
 		1860504B1CDC56EA00944E8A /* GDWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860504A1CDC56EA00944E8A /* GDWTabBarController.m */; };
 		1860504E1CDD841B00944E8A /* GDWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860504D1CDD841B00944E8A /* GDWHomeViewController.m */; };
 		186050511CDD853300944E8A /* GDWTeachPositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050501CDD853300944E8A /* GDWTeachPositionController.m */; };
 		186050541CDD856800944E8A /* GDWDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050531CDD856800944E8A /* GDWDiscoverController.m */; };
 		186050571CDD858300944E8A /* GDWMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050561CDD858300944E8A /* GDWMineController.m */; };
 		1860505A1CDD85BA00944E8A /* GDWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050591CDD85BA00944E8A /* GDWNavigationController.m */; };
+		1860505D1CDDB7EA00944E8A /* GDWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860505C1CDDB7EA00944E8A /* GDWTabBar.m */; };
+		186050601CDDB8E700944E8A /* GDWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860505F1CDDB8E700944E8A /* GDWButton.m */; };
+		186050671CDDBECC00944E8A /* UIView+GDWViewGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050661CDDBECC00944E8A /* UIView+GDWViewGeometry.m */; };
+		1860506A1CDE4A8E00944E8A /* 钢琴课老师信息 in Resources */ = {isa = PBXBuildFile; fileRef = 186050691CDE4A8E00944E8A /* 钢琴课老师信息 */; };
 		18A57F311CDBA26B005BEE8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F301CDBA26B005BEE8C /* main.m */; };
 		18A57F341CDBA26B005BEE8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F331CDBA26B005BEE8C /* AppDelegate.m */; };
 		18A57F371CDBA26B005BEE8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F361CDBA26B005BEE8C /* ViewController.m */; };
@@ -21,6 +34,8 @@
 		18A57F3F1CDBA26B005BEE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A57F3D1CDBA26B005BEE8C /* LaunchScreen.storyboard */; };
 		18A57F4A1CDBA26B005BEE8C /* shijiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F491CDBA26B005BEE8C /* shijiaTests.m */; };
 		18A57F551CDBA26B005BEE8C /* shijiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A57F541CDBA26B005BEE8C /* shijiaUITests.m */; };
+		18F2649E1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2649D1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m */; };
+		18F264A01CE2D9680091B2FE /* GDWHomeTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F2649F1CE2D9680091B2FE /* GDWHomeTableHeaderView.xib */; };
 		ED12DA301A16BBE6FE454A12 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BE102BF0AC00887AB28FD5 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +57,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183C41FE1CDECF7600ED20F3 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		183C41FF1CDED0A600ED20F3 /* DataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTool.h; sourceTree = "<group>"; };
+		183C42001CDED0A600ED20F3 /* DataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTool.m; sourceTree = "<group>"; };
+		183C42031CDED1D600ED20F3 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		183C42041CDED1D600ED20F3 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		183C42061CDED23200ED20F3 /* NSString+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSON.h"; sourceTree = "<group>"; };
+		183C42071CDED23200ED20F3 /* NSString+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSON.m"; sourceTree = "<group>"; };
+		183C42091CDED9FD00ED20F3 /* 钢琴课老师信息.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "钢琴课老师信息.plist"; sourceTree = "<group>"; };
+		183C420B1CDF479500ED20F3 /* GDWTeacherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTeacherModel.h; sourceTree = "<group>"; };
+		183C420C1CDF479500ED20F3 /* GDWTeacherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTeacherModel.m; sourceTree = "<group>"; };
+		183C420E1CDF528400ED20F3 /* 教学秀和推荐活动 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "教学秀和推荐活动"; sourceTree = "<group>"; };
+		183C42101CDF53D400ED20F3 /* 教学秀和推荐活动.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "教学秀和推荐活动.plist"; sourceTree = "<group>"; };
+		183C42121CDF55B900ED20F3 /* GDWTeachPictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTeachPictureModel.h; sourceTree = "<group>"; };
+		183C42131CDF55B900ED20F3 /* GDWTeachPictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTeachPictureModel.m; sourceTree = "<group>"; };
+		183C42151CDF578F00ED20F3 /* GDWEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWEventModel.h; sourceTree = "<group>"; };
+		183C42161CDF578F00ED20F3 /* GDWEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWEventModel.m; sourceTree = "<group>"; };
 		186050491CDC56EA00944E8A /* GDWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTabBarController.h; sourceTree = "<group>"; };
 		1860504A1CDC56EA00944E8A /* GDWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTabBarController.m; sourceTree = "<group>"; };
 		1860504C1CDD841B00944E8A /* GDWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWHomeViewController.h; sourceTree = "<group>"; };
@@ -54,6 +85,14 @@
 		186050561CDD858300944E8A /* GDWMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWMineController.m; sourceTree = "<group>"; };
 		186050581CDD85BA00944E8A /* GDWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWNavigationController.h; sourceTree = "<group>"; };
 		186050591CDD85BA00944E8A /* GDWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWNavigationController.m; sourceTree = "<group>"; };
+		1860505B1CDDB7EA00944E8A /* GDWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTabBar.h; sourceTree = "<group>"; };
+		1860505C1CDDB7EA00944E8A /* GDWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTabBar.m; sourceTree = "<group>"; };
+		1860505E1CDDB8E700944E8A /* GDWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWButton.h; sourceTree = "<group>"; };
+		1860505F1CDDB8E700944E8A /* GDWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWButton.m; sourceTree = "<group>"; };
+		186050651CDDBECC00944E8A /* UIView+GDWViewGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GDWViewGeometry.h"; sourceTree = "<group>"; };
+		186050661CDDBECC00944E8A /* UIView+GDWViewGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GDWViewGeometry.m"; sourceTree = "<group>"; };
+		186050681CDDBF4300944E8A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		186050691CDE4A8E00944E8A /* 钢琴课老师信息 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "钢琴课老师信息"; path = "../../../controller/钢琴课老师信息"; sourceTree = "<group>"; };
 		18A57F2C1CDBA26B005BEE8C /* shijia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shijia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A57F301CDBA26B005BEE8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18A57F321CDBA26B005BEE8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +109,9 @@
 		18A57F501CDBA26B005BEE8C /* shijiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shijiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A57F541CDBA26B005BEE8C /* shijiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shijiaUITests.m; sourceTree = "<group>"; };
 		18A57F561CDBA26B005BEE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F2649C1CE2D95A0091B2FE /* GDWHomeTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWHomeTableHeaderView.h; sourceTree = "<group>"; };
+		18F2649D1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWHomeTableHeaderView.m; sourceTree = "<group>"; };
+		18F2649F1CE2D9680091B2FE /* GDWHomeTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDWHomeTableHeaderView.xib; sourceTree = "<group>"; };
 		D8A31BD41DF6E02262D1A726 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E5BE102BF0AC00887AB28FD5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06F4EA83DB45CB7F672826F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +143,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183C41FD1CDECD6A00ED20F3 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				183C41FE1CDECF7600ED20F3 /* Single.h */,
+				183C41FF1CDED0A600ED20F3 /* DataTool.h */,
+				183C42001CDED0A600ED20F3 /* DataTool.m */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		183C42021CDED14A00ED20F3 /* dataSource */ = {
+			isa = PBXGroup;
+			children = (
+				183C42091CDED9FD00ED20F3 /* 钢琴课老师信息.plist */,
+				186050691CDE4A8E00944E8A /* 钢琴课老师信息 */,
+				183C420E1CDF528400ED20F3 /* 教学秀和推荐活动 */,
+				183C42101CDF53D400ED20F3 /* 教学秀和推荐活动.plist */,
+			);
+			path = dataSource;
+			sourceTree = "<group>";
+		};
 		186050341CDC31C800944E8A /* classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +172,7 @@
 				1860503D1CDC31C800944E8A /* 教学点 */,
 				186050411CDC31C800944E8A /* 首页 */,
 				186050451CDC52FA00944E8A /* main */,
+				186050611CDDBE9300944E8A /* other */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -215,9 +279,9 @@
 		186050411CDC31C800944E8A /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
-				186050421CDC31C800944E8A /* controller */,
 				186050431CDC31C800944E8A /* model */,
 				186050441CDC31C800944E8A /* view */,
+				186050421CDC31C800944E8A /* controller */,
 			);
 			path = "首页";
 			sourceTree = "<group>";
@@ -234,6 +298,12 @@
 		186050431CDC31C800944E8A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				183C420B1CDF479500ED20F3 /* GDWTeacherModel.h */,
+				183C420C1CDF479500ED20F3 /* GDWTeacherModel.m */,
+				183C42121CDF55B900ED20F3 /* GDWTeachPictureModel.h */,
+				183C42131CDF55B900ED20F3 /* GDWTeachPictureModel.m */,
+				183C42151CDF578F00ED20F3 /* GDWEventModel.h */,
+				183C42161CDF578F00ED20F3 /* GDWEventModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -241,6 +311,9 @@
 		186050441CDC31C800944E8A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				18F2649C1CE2D95A0091B2FE /* GDWHomeTableHeaderView.h */,
+				18F2649D1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m */,
+				18F2649F1CE2D9680091B2FE /* GDWHomeTableHeaderView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -277,8 +350,52 @@
 		186050481CDC52FA00944E8A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				1860505B1CDDB7EA00944E8A /* GDWTabBar.h */,
+				1860505C1CDDB7EA00944E8A /* GDWTabBar.m */,
+				1860505E1CDDB8E700944E8A /* GDWButton.h */,
+				1860505F1CDDB8E700944E8A /* GDWButton.m */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		186050611CDDBE9300944E8A /* other */ = {
+			isa = PBXGroup;
+			children = (
+				183C42021CDED14A00ED20F3 /* dataSource */,
+				183C41FD1CDECD6A00ED20F3 /* tool */,
+				186050621CDDBE9300944E8A /* category */,
+				186050631CDDBE9300944E8A /* constant */,
+				186050641CDDBE9300944E8A /* lib */,
+			);
+			name = other;
+			path = "首页/main/other";
+			sourceTree = "<group>";
+		};
+		186050621CDDBE9300944E8A /* category */ = {
+			isa = PBXGroup;
+			children = (
+				186050651CDDBECC00944E8A /* UIView+GDWViewGeometry.h */,
+				186050661CDDBECC00944E8A /* UIView+GDWViewGeometry.m */,
+				183C42031CDED1D600ED20F3 /* NSDictionary+JSON.h */,
+				183C42041CDED1D600ED20F3 /* NSDictionary+JSON.m */,
+				183C42061CDED23200ED20F3 /* NSString+JSON.h */,
+				183C42071CDED23200ED20F3 /* NSString+JSON.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		186050631CDDBE9300944E8A /* constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = constant;
+			sourceTree = "<group>";
+		};
+		186050641CDDBE9300944E8A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		18A57F231CDBA26B005BEE8C = {
@@ -311,6 +428,7 @@
 				18A57F331CDBA26B005BEE8C /* AppDelegate.m */,
 				18A57F351CDBA26B005BEE8C /* ViewController.h */,
 				18A57F361CDBA26B005BEE8C /* ViewController.m */,
+				186050681CDDBF4300944E8A /* PrefixHeader.pch */,
 				18A57F381CDBA26B005BEE8C /* Main.storyboard */,
 				18A57F3B1CDBA26B005BEE8C /* Assets.xcassets */,
 				18A57F3D1CDBA26B005BEE8C /* LaunchScreen.storyboard */,
@@ -473,8 +591,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183C42111CDF53D400ED20F3 /* 教学秀和推荐活动.plist in Resources */,
+				1860506A1CDE4A8E00944E8A /* 钢琴课老师信息 in Resources */,
+				18F264A01CE2D9680091B2FE /* GDWHomeTableHeaderView.xib in Resources */,
+				183C420A1CDED9FD00ED20F3 /* 钢琴课老师信息.plist in Resources */,
 				18A57F3F1CDBA26B005BEE8C /* LaunchScreen.storyboard in Resources */,
 				18A57F3C1CDBA26B005BEE8C /* Assets.xcassets in Resources */,
+				183C420F1CDF528400ED20F3 /* 教学秀和推荐活动 in Resources */,
 				18A57F3A1CDBA26B005BEE8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,15 +671,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F2649E1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m in Sources */,
 				18A57F371CDBA26B005BEE8C /* ViewController.m in Sources */,
 				18A57F341CDBA26B005BEE8C /* AppDelegate.m in Sources */,
 				18A57F311CDBA26B005BEE8C /* main.m in Sources */,
+				183C42141CDF55B900ED20F3 /* GDWTeachPictureModel.m in Sources */,
 				1860505A1CDD85BA00944E8A /* GDWNavigationController.m in Sources */,
+				186050671CDDBECC00944E8A /* UIView+GDWViewGeometry.m in Sources */,
+				186050601CDDB8E700944E8A /* GDWButton.m in Sources */,
+				183C42171CDF578F00ED20F3 /* GDWEventModel.m in Sources */,
 				186050541CDD856800944E8A /* GDWDiscoverController.m in Sources */,
 				1860504E1CDD841B00944E8A /* GDWHomeViewController.m in Sources */,
 				186050571CDD858300944E8A /* GDWMineController.m in Sources */,
 				1860504B1CDC56EA00944E8A /* GDWTabBarController.m in Sources */,
+				183C42081CDED23200ED20F3 /* NSString+JSON.m in Sources */,
+				183C420D1CDF479500ED20F3 /* GDWTeacherModel.m in Sources */,
+				183C42051CDED1D600ED20F3 /* NSDictionary+JSON.m in Sources */,
+				1860505D1CDDB7EA00944E8A /* GDWTabBar.m in Sources */,
 				186050511CDD853300944E8A /* GDWTeachPositionController.m in Sources */,
+				183C42011CDED0A600ED20F3 /* DataTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +831,8 @@
 			baseConfigurationReference = D8A31BD41DF6E02262D1A726 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = shijia/PrefixHeader.pch;
 				INFOPLIST_FILE = shijia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -711,6 +846,8 @@
 			baseConfigurationReference = F06F4EA83DB45CB7F672826F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = shijia/PrefixHeader.pch;
 				INFOPLIST_FILE = shijia/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

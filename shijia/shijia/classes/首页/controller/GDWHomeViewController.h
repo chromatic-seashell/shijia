@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GDWHomeViewController : UITableViewController
+@interface GDWHomeViewController : UIViewController
 
 @end
