@@ -23,4 +23,12 @@
 /** 网页url */
 @property (nonatomic, copy) NSString *url;
 
+
+/** cell的高度 */
+@property (nonatomic, assign) CGFloat cellHeight;
+/** 封面对应的图片 */
+@property (nonatomic, strong) UIImage *coverImage;
+/** 封面图片对应的frame */
+@property (nonatomic, assign) CGRect coverImageViewFrame;
+
 @end

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9059"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GDWHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ktt-5t-MLr" customClass="GDWImageDisplayView">
+                    <rect key="frame" x="0.0" y="0.0" width="410" height="164"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.86950710340000004" green="1" blue="0.88103967309999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="164" id="bzJ-y8-QWK"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Afk-3Q-qKG">
+                    <rect key="frame" x="0.0" y="164" width="410" height="86"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.91344796640000003" green="0.76885193389999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Afk-3Q-qKG" secondAttribute="trailing" id="0qU-E7-8KH"/>
+                <constraint firstItem="Ktt-5t-MLr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="A8f-0Y-nqf"/>
+                <constraint firstItem="Ktt-5t-MLr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="IBd-kf-gG3"/>
+                <constraint firstAttribute="trailing" secondItem="Ktt-5t-MLr" secondAttribute="trailing" id="d0w-mE-rFO"/>
+                <constraint firstItem="Afk-3Q-qKG" firstAttribute="top" secondItem="Ktt-5t-MLr" secondAttribute="bottom" id="hx3-y8-IAG"/>
+                <constraint firstItem="Afk-3Q-qKG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iZE-tE-S7s"/>
+                <constraint firstAttribute="bottom" secondItem="Afk-3Q-qKG" secondAttribute="bottom" id="neg-Jc-arz"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonView" destination="Afk-3Q-qKG" id="UK4-a8-haz"/>
+                <outlet property="imageDisplayView" destination="Ktt-5t-MLr" id="rZZ-Pa-S7Y"/>
+            </connections>
+            <point key="canvasLocation" x="-164" y="55"/>
+        </view>
+    </objects>
+</document>

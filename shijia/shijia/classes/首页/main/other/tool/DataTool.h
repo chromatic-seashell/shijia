@@ -11,6 +11,7 @@
 #import "GDWTeacherModel.h"
 #import "GDWTeachPictureModel.h"
 #import "GDWEventModel.h"
+#import "GDWCycPictureModel.h"
 
 @interface DataTool : NSObject
 
@@ -22,4 +23,10 @@ SingleInterface(DataTool)
 - (NSArray *)teachPictureModels;
 /** 首页推荐活动模型数组 */
 - (NSArray *)eventModels;
+/** 首页图片轮播器数据 */
+- (NSArray *)circlePictureModels;
+
+
+
+
 @end

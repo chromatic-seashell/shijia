@@ -1,0 +1,14 @@
+//
+//  GDWImageDisplayView.h
+//  UIScrollView-循环展示图片
+//
+//  Created by apple on 15/8/28.
+//  Copyright (c) 2015年 apple. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface GDWImageDisplayView : UIView
+
+@property  (nonatomic,strong)  NSArray  *images;
+@end
