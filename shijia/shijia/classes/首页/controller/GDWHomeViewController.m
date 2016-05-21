@@ -17,6 +17,9 @@
 #import <SDWebImage/SDWebImageManager.h>
 
 
+
+
+
 typedef void(^ImageDownLoadBlock)(NSArray *images);
 
 
@@ -92,13 +95,14 @@ static  NSString * const  teachPictureCell = @"teachPictureCell";
     
     //3.设置tableView的headerView
     GDWHeaderView *headerView = [GDWHeaderView  headerView];
-    headerView.frame = CGRectMake(0, 0, GDWScreenW, 400);
+    headerView.frame = CGRectMake(0, 0, GDWScreenW, 310);
     self.tableView.tableHeaderView = headerView;
     
     //给图片轮播器设置图片资源.
     [self  setUpImageDisplayViewWithBlock:^(NSArray *images) {
         headerView.imageDisplayView.images = images;
     }];
+
     
 }
 
@@ -136,7 +140,7 @@ static  NSString * const  teachPictureCell = @"teachPictureCell";
 
 - (void)viewWillAppear:(BOOL)animated{
     [super  viewWillAppear:animated];
-    self.tableView.tableHeaderView.frame = CGRectMake(0, 0, GDWScreenW, 400);
+    self.tableView.tableHeaderView.frame = CGRectMake(0, 0, GDWScreenW, 310);
 
 }
 

@@ -43,6 +43,9 @@
 		18B409DC1CEDBBEF008DA7C9 /* GDWImageDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B409DB1CEDBBEF008DA7C9 /* GDWImageDisplayView.m */; };
 		18B409EE1CEDDD60008DA7C9 /* 图片轮播器 in Resources */ = {isa = PBXBuildFile; fileRef = 18B409ED1CEDDD60008DA7C9 /* 图片轮播器 */; };
 		18B409F11CEDE09B008DA7C9 /* GDWCycPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B409F01CEDE09B008DA7C9 /* GDWCycPictureModel.m */; };
+		18DA78351CEFE837005AC6E8 /* subjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18DA78341CEFE837005AC6E8 /* subjects.plist */; };
+		18DA78941CF06361005AC6E8 /* GDWButtonUpDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA78911CF06361005AC6E8 /* GDWButtonUpDown.m */; };
+		18DA78951CF06361005AC6E8 /* GDWButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA78931CF06361005AC6E8 /* GDWButtonView.m */; };
 		18F2649E1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2649D1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m */; };
 		18F264A01CE2D9680091B2FE /* GDWHomeTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F2649F1CE2D9680091B2FE /* GDWHomeTableHeaderView.xib */; };
 		18F264A41CE2E3160091B2FE /* GDWEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F264A21CE2E3160091B2FE /* GDWEventCell.m */; };
@@ -136,6 +139,11 @@
 		18B409ED1CEDDD60008DA7C9 /* 图片轮播器 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "图片轮播器"; sourceTree = "<group>"; };
 		18B409EF1CEDE09B008DA7C9 /* GDWCycPictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWCycPictureModel.h; sourceTree = "<group>"; };
 		18B409F01CEDE09B008DA7C9 /* GDWCycPictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWCycPictureModel.m; sourceTree = "<group>"; };
+		18DA78341CEFE837005AC6E8 /* subjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = subjects.plist; sourceTree = "<group>"; };
+		18DA78901CF06361005AC6E8 /* GDWButtonUpDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWButtonUpDown.h; sourceTree = "<group>"; };
+		18DA78911CF06361005AC6E8 /* GDWButtonUpDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWButtonUpDown.m; sourceTree = "<group>"; };
+		18DA78921CF06361005AC6E8 /* GDWButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWButtonView.h; sourceTree = "<group>"; };
+		18DA78931CF06361005AC6E8 /* GDWButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWButtonView.m; sourceTree = "<group>"; };
 		18F2649C1CE2D95A0091B2FE /* GDWHomeTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWHomeTableHeaderView.h; sourceTree = "<group>"; };
 		18F2649D1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWHomeTableHeaderView.m; sourceTree = "<group>"; };
 		18F2649F1CE2D9680091B2FE /* GDWHomeTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDWHomeTableHeaderView.xib; sourceTree = "<group>"; };
@@ -193,6 +201,7 @@
 				183C420E1CDF528400ED20F3 /* 教学秀和推荐活动 */,
 				183C42101CDF53D400ED20F3 /* 教学秀和推荐活动.plist */,
 				18B409ED1CEDDD60008DA7C9 /* 图片轮播器 */,
+				18DA78341CEFE837005AC6E8 /* subjects.plist */,
 			);
 			path = dataSource;
 			sourceTree = "<group>";
@@ -520,6 +529,10 @@
 				18B409D71CEDB18B008DA7C9 /* GDWHeaderView.xib */,
 				18B409DA1CEDBBEF008DA7C9 /* GDWImageDisplayView.h */,
 				18B409DB1CEDBBEF008DA7C9 /* GDWImageDisplayView.m */,
+				18DA78921CF06361005AC6E8 /* GDWButtonView.h */,
+				18DA78931CF06361005AC6E8 /* GDWButtonView.m */,
+				18DA78901CF06361005AC6E8 /* GDWButtonUpDown.h */,
+				18DA78911CF06361005AC6E8 /* GDWButtonUpDown.m */,
 			);
 			path = "头部view";
 			sourceTree = "<group>";
@@ -661,6 +674,7 @@
 				18A57F3F1CDBA26B005BEE8C /* LaunchScreen.storyboard in Resources */,
 				18A57F3C1CDBA26B005BEE8C /* Assets.xcassets in Resources */,
 				18B409D81CEDB18B008DA7C9 /* GDWHeaderView.xib in Resources */,
+				18DA78351CEFE837005AC6E8 /* subjects.plist in Resources */,
 				183C420F1CDF528400ED20F3 /* 教学秀和推荐活动 in Resources */,
 				18A57F3A1CDBA26B005BEE8C /* Main.storyboard in Resources */,
 			);
@@ -742,6 +756,7 @@
 				18A57F341CDBA26B005BEE8C /* AppDelegate.m in Sources */,
 				18A57F311CDBA26B005BEE8C /* main.m in Sources */,
 				183C42141CDF55B900ED20F3 /* GDWTeachPictureModel.m in Sources */,
+				18DA78951CF06361005AC6E8 /* GDWButtonView.m in Sources */,
 				1860505A1CDD85BA00944E8A /* GDWNavigationController.m in Sources */,
 				18B409D61CEDB172008DA7C9 /* GDWHeaderView.m in Sources */,
 				18B409F11CEDE09B008DA7C9 /* GDWCycPictureModel.m in Sources */,
@@ -758,6 +773,7 @@
 				189FFCD41CE8C66C0021A377 /* GDWTeachPictureCollectionCell.m in Sources */,
 				183C42081CDED23200ED20F3 /* NSString+JSON.m in Sources */,
 				183C420D1CDF479500ED20F3 /* GDWTeacherModel.m in Sources */,
+				18DA78941CF06361005AC6E8 /* GDWButtonUpDown.m in Sources */,
 				183C42051CDED1D600ED20F3 /* NSDictionary+JSON.m in Sources */,
 				1860505D1CDDB7EA00944E8A /* GDWTabBar.m in Sources */,
 				186050511CDD853300944E8A /* GDWTeachPositionController.m in Sources */,
@@ -903,6 +919,7 @@
 			baseConfigurationReference = D8A31BD41DF6E02262D1A726 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = shijia/PrefixHeader.pch;
 				INFOPLIST_FILE = shijia/Info.plist;
@@ -910,6 +927,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yht.shijia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "shijia/classes/首页/main/other/category/shijia-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -918,6 +937,7 @@
 			baseConfigurationReference = F06F4EA83DB45CB7F672826F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = shijia/PrefixHeader.pch;
 				INFOPLIST_FILE = shijia/Info.plist;
@@ -925,6 +945,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yht.shijia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "shijia/classes/首页/main/other/category/shijia-Bridging-Header.h";
 			};
 			name = Release;
 		};

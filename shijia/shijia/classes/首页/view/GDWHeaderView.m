@@ -8,6 +8,11 @@
 
 #import "GDWHeaderView.h"
 
+@interface GDWHeaderView ()
+
+@end
+
+
 @implementation GDWHeaderView
 
 + (instancetype)headerView{
@@ -15,4 +20,18 @@
 
     return  [[[NSBundle   mainBundle]   loadNibNamed:NSStringFromClass([self  class]) owner:nil options:nil]  firstObject];
 }
+
+- (void)awakeFromNib{
+
+}
+
+
+//- (CGFloat)heightForButtonView{
+//
+//
+//
+//
+//}
+
+
 @end

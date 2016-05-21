@@ -18,10 +18,10 @@
                         <constraint firstAttribute="height" constant="164" id="bzJ-y8-QWK"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Afk-3Q-qKG">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Afk-3Q-qKG" customClass="GDWButtonView">
                     <rect key="frame" x="0.0" y="164" width="410" height="86"/>
                     <animations/>
-                    <color key="backgroundColor" red="0.91344796640000003" green="0.76885193389999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
             <animations/>

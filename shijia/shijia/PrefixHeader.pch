@@ -23,6 +23,8 @@
 /** 常量数据 */
 #import "GDWConstant.h"
 
+
+
 /** 屏幕尺寸 */
 #define GDWScreenW [UIScreen mainScreen].bounds.size.width
 #define GDWScreenH [UIScreen mainScreen].bounds.size.height

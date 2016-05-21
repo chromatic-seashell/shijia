@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>subject</key>
+		<string>钢琴</string>
+		<key>subject_icon</key>
+		<string>subject_icon_1</string>
+	</dict>
+	<dict>
+		<key>subject</key>
+		<string>羽毛球</string>
+		<key>subject_icon</key>
+		<string>subject_icon_2</string>
+	</dict>
+	<dict>
+		<key>subject</key>
+		<string>舞蹈</string>
+		<key>subject_icon</key>
+		<string>subject_icon_3</string>
+	</dict>
+	<dict>
+		<key>subject</key>
+		<string>美术</string>
+		<key>subject_icon</key>
+		<string>subject_icon_4</string>
+	</dict>
+	<dict>
+		<key>subject</key>
+		<string>阅写 </string>
+		<key>subject_icon</key>
+		<string>subject_icon_5</string>
+	</dict>
+	<dict>
+		<key>subject</key>
+		<string>小提琴</string>
+		<key>subject_icon</key>
+		<string>subject_icon_6</string>
+	</dict>
+	<dict>
+		<key>subject</key>
+		<string>网球</string>
+		<key>subject_icon</key>
+		<string>subject_icon_7</string>
+	</dict>
+	<dict>
+		<key>subject</key>
+		<string>声乐</string>
+		<key>subject_icon</key>
+		<string>subject_icon_8</string>
+	</dict>
+</array>
+</plist>
