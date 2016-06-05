@@ -44,5 +44,13 @@ SingleImplementation(DataTool)
     return cycPictureModels;
 }
 
+/** 教学点模型数据 */
+- (NSArray *)teachPositionModels{
+    NSDictionary * dic = [NSDictionary  dictionaryWithJsonFilename:@"教学点模型" ofType:nil];
+    NSArray * array = dic[@"content"][@"data"];
+    NSArray *teachPositionModels = [GDWTeachPositionModel  mj_objectArrayWithKeyValuesArray:array];
+    return teachPositionModels;
+
+}
 
 @end

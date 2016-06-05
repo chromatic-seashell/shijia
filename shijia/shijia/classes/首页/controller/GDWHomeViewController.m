@@ -14,6 +14,8 @@
 #import "GDWEventCell.h"
 #import "GDWTeachPictureCell.h"
 
+#import "GDWWebViewController.h"
+
 #import <SDWebImage/SDWebImageManager.h>
 
 
@@ -102,7 +104,10 @@ static  NSString * const  teachPictureCell = @"teachPictureCell";
     [self  setUpImageDisplayViewWithBlock:^(NSArray *images) {
         headerView.imageDisplayView.images = images;
     }];
-
+    
+    
+    
+    //NSArray *teachPositionModels = [[DataTool  shareDataTool]   teachPositionModels];
     
 }
 
@@ -264,8 +269,11 @@ static  NSString * const  teachPictureCell = @"teachPictureCell";
     if (indexPath.section == 1) {
         //1.取出模型
         GDWEventModel *eventModel = self.eventModels[indexPath.row];
-         NSLog(@"%@",eventModel.coverImage);
         //2.加载网页.
+        GDWWebViewController *webVc = [[GDWWebViewController  alloc]  init];
+        webVc.url = eventModel.url;
+        
+        [self.navigationController  pushViewController:webVc animated:YES];
         
     }
 }

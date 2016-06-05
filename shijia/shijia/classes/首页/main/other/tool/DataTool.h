@@ -12,6 +12,7 @@
 #import "GDWTeachPictureModel.h"
 #import "GDWEventModel.h"
 #import "GDWCycPictureModel.h"
+#import "GDWTeachPositionModel.h"
 
 @interface DataTool : NSObject
 
@@ -26,6 +27,9 @@ SingleInterface(DataTool)
 /** 首页图片轮播器数据 */
 - (NSArray *)circlePictureModels;
 
+
+/** 教学点模型数据 */
+- (NSArray *)teachPositionModels;
 
 
 

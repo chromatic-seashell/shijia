@@ -113,7 +113,7 @@
 - (void)addOneViewController:(UIViewController  *)vc    image:(UIImage *)image   seletedImage:(UIImage *)seletedImage  title:(NSString *)title{
     
     //1.创建导航控制器
-    UINavigationController *navVc=[[GDWNavigationController  alloc]  initWithRootViewController:vc];
+    GDWNavigationController *navVc=[[GDWNavigationController  alloc]  initWithRootViewController:vc];
     //屏蔽图片的默认渲染.
     [navVc.tabBarItem  setImage:[image  imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     [navVc.tabBarItem  setSelectedImage:[seletedImage  imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];

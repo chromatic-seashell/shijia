@@ -18,6 +18,9 @@
 		183C42111CDF53D400ED20F3 /* 教学秀和推荐活动.plist in Resources */ = {isa = PBXBuildFile; fileRef = 183C42101CDF53D400ED20F3 /* 教学秀和推荐活动.plist */; };
 		183C42141CDF55B900ED20F3 /* GDWTeachPictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42131CDF55B900ED20F3 /* GDWTeachPictureModel.m */; };
 		183C42171CDF578F00ED20F3 /* GDWEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183C42161CDF578F00ED20F3 /* GDWEventModel.m */; };
+		18446C851D01D1C100323894 /* 教学点模型 in Resources */ = {isa = PBXBuildFile; fileRef = 18446C841D01D1C100323894 /* 教学点模型 */; };
+		18446C881D01D44200323894 /* GDWTeachPositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18446C871D01D44200323894 /* GDWTeachPositionModel.m */; };
+		18446C8A1D01D52800323894 /* 教学点模型.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18446C891D01D52800323894 /* 教学点模型.plist */; };
 		1860504B1CDC56EA00944E8A /* GDWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860504A1CDC56EA00944E8A /* GDWTabBarController.m */; };
 		1860504E1CDD841B00944E8A /* GDWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860504D1CDD841B00944E8A /* GDWHomeViewController.m */; };
 		186050511CDD853300944E8A /* GDWTeachPositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050501CDD853300944E8A /* GDWTeachPositionController.m */; };
@@ -46,6 +49,8 @@
 		18DA78351CEFE837005AC6E8 /* subjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18DA78341CEFE837005AC6E8 /* subjects.plist */; };
 		18DA78941CF06361005AC6E8 /* GDWButtonUpDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA78911CF06361005AC6E8 /* GDWButtonUpDown.m */; };
 		18DA78951CF06361005AC6E8 /* GDWButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA78931CF06361005AC6E8 /* GDWButtonView.m */; };
+		18DA78991CF08B8B005AC6E8 /* GDWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA78971CF08B8B005AC6E8 /* GDWWebViewController.m */; };
+		18DA789A1CF08B8B005AC6E8 /* GDWWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA78981CF08B8B005AC6E8 /* GDWWebViewController.xib */; };
 		18F2649E1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2649D1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m */; };
 		18F264A01CE2D9680091B2FE /* GDWHomeTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F2649F1CE2D9680091B2FE /* GDWHomeTableHeaderView.xib */; };
 		18F264A41CE2E3160091B2FE /* GDWEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F264A21CE2E3160091B2FE /* GDWEventCell.m */; };
@@ -91,6 +96,10 @@
 		183C42131CDF55B900ED20F3 /* GDWTeachPictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTeachPictureModel.m; sourceTree = "<group>"; };
 		183C42151CDF578F00ED20F3 /* GDWEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWEventModel.h; sourceTree = "<group>"; };
 		183C42161CDF578F00ED20F3 /* GDWEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWEventModel.m; sourceTree = "<group>"; };
+		18446C841D01D1C100323894 /* 教学点模型 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "教学点模型"; sourceTree = "<group>"; };
+		18446C861D01D44200323894 /* GDWTeachPositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTeachPositionModel.h; sourceTree = "<group>"; };
+		18446C871D01D44200323894 /* GDWTeachPositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTeachPositionModel.m; sourceTree = "<group>"; };
+		18446C891D01D52800323894 /* 教学点模型.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "教学点模型.plist"; sourceTree = "<group>"; };
 		186050491CDC56EA00944E8A /* GDWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTabBarController.h; sourceTree = "<group>"; };
 		1860504A1CDC56EA00944E8A /* GDWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTabBarController.m; sourceTree = "<group>"; };
 		1860504C1CDD841B00944E8A /* GDWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWHomeViewController.h; sourceTree = "<group>"; };
@@ -144,6 +153,9 @@
 		18DA78911CF06361005AC6E8 /* GDWButtonUpDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWButtonUpDown.m; sourceTree = "<group>"; };
 		18DA78921CF06361005AC6E8 /* GDWButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWButtonView.h; sourceTree = "<group>"; };
 		18DA78931CF06361005AC6E8 /* GDWButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWButtonView.m; sourceTree = "<group>"; };
+		18DA78961CF08B8B005AC6E8 /* GDWWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWWebViewController.h; sourceTree = "<group>"; };
+		18DA78971CF08B8B005AC6E8 /* GDWWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWWebViewController.m; sourceTree = "<group>"; };
+		18DA78981CF08B8B005AC6E8 /* GDWWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDWWebViewController.xib; sourceTree = "<group>"; };
 		18F2649C1CE2D95A0091B2FE /* GDWHomeTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWHomeTableHeaderView.h; sourceTree = "<group>"; };
 		18F2649D1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWHomeTableHeaderView.m; sourceTree = "<group>"; };
 		18F2649F1CE2D9680091B2FE /* GDWHomeTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDWHomeTableHeaderView.xib; sourceTree = "<group>"; };
@@ -202,6 +214,8 @@
 				183C42101CDF53D400ED20F3 /* 教学秀和推荐活动.plist */,
 				18B409ED1CEDDD60008DA7C9 /* 图片轮播器 */,
 				18DA78341CEFE837005AC6E8 /* subjects.plist */,
+				18446C841D01D1C100323894 /* 教学点模型 */,
+				18446C891D01D52800323894 /* 教学点模型.plist */,
 			);
 			path = dataSource;
 			sourceTree = "<group>";
@@ -333,6 +347,9 @@
 			children = (
 				1860504C1CDD841B00944E8A /* GDWHomeViewController.h */,
 				1860504D1CDD841B00944E8A /* GDWHomeViewController.m */,
+				18DA78961CF08B8B005AC6E8 /* GDWWebViewController.h */,
+				18DA78971CF08B8B005AC6E8 /* GDWWebViewController.m */,
+				18DA78981CF08B8B005AC6E8 /* GDWWebViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -348,6 +365,8 @@
 				183C42161CDF578F00ED20F3 /* GDWEventModel.m */,
 				18B409EF1CEDE09B008DA7C9 /* GDWCycPictureModel.h */,
 				18B409F01CEDE09B008DA7C9 /* GDWCycPictureModel.m */,
+				18446C861D01D44200323894 /* GDWTeachPositionModel.h */,
+				18446C871D01D44200323894 /* GDWTeachPositionModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -666,11 +685,14 @@
 			files = (
 				18B409EE1CEDDD60008DA7C9 /* 图片轮播器 in Resources */,
 				183C42111CDF53D400ED20F3 /* 教学秀和推荐活动.plist in Resources */,
+				18DA789A1CF08B8B005AC6E8 /* GDWWebViewController.xib in Resources */,
 				1860506A1CDE4A8E00944E8A /* 钢琴课老师信息 in Resources */,
 				18F264A51CE2E3160091B2FE /* GDWEventCell.xib in Resources */,
 				18F264A01CE2D9680091B2FE /* GDWHomeTableHeaderView.xib in Resources */,
+				18446C851D01D1C100323894 /* 教学点模型 in Resources */,
 				183C420A1CDED9FD00ED20F3 /* 钢琴课老师信息.plist in Resources */,
 				182E19F61CE49941007C0A4E /* GDWTeachPictureCell.xib in Resources */,
+				18446C8A1D01D52800323894 /* 教学点模型.plist in Resources */,
 				18A57F3F1CDBA26B005BEE8C /* LaunchScreen.storyboard in Resources */,
 				18A57F3C1CDBA26B005BEE8C /* Assets.xcassets in Resources */,
 				18B409D81CEDB18B008DA7C9 /* GDWHeaderView.xib in Resources */,
@@ -755,6 +777,7 @@
 				18A57F371CDBA26B005BEE8C /* ViewController.m in Sources */,
 				18A57F341CDBA26B005BEE8C /* AppDelegate.m in Sources */,
 				18A57F311CDBA26B005BEE8C /* main.m in Sources */,
+				18446C881D01D44200323894 /* GDWTeachPositionModel.m in Sources */,
 				183C42141CDF55B900ED20F3 /* GDWTeachPictureModel.m in Sources */,
 				18DA78951CF06361005AC6E8 /* GDWButtonView.m in Sources */,
 				1860505A1CDD85BA00944E8A /* GDWNavigationController.m in Sources */,
@@ -775,6 +798,7 @@
 				183C420D1CDF479500ED20F3 /* GDWTeacherModel.m in Sources */,
 				18DA78941CF06361005AC6E8 /* GDWButtonUpDown.m in Sources */,
 				183C42051CDED1D600ED20F3 /* NSDictionary+JSON.m in Sources */,
+				18DA78991CF08B8B005AC6E8 /* GDWWebViewController.m in Sources */,
 				1860505D1CDDB7EA00944E8A /* GDWTabBar.m in Sources */,
 				186050511CDD853300944E8A /* GDWTeachPositionController.m in Sources */,
 				183C42011CDED0A600ED20F3 /* DataTool.m in Sources */,
@@ -920,6 +944,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = shijia/PrefixHeader.pch;
 				INFOPLIST_FILE = shijia/Info.plist;
@@ -938,6 +963,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = shijia/PrefixHeader.pch;
 				INFOPLIST_FILE = shijia/Info.plist;
