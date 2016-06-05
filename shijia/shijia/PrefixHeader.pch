@@ -18,12 +18,13 @@
 /** 获取数据的工具类 */
 #import "DataTool.h"
 #import "NSDictionary+JSON.h"
-
-#define GDWWriteToPlist(obj, filename) [obj writeToFile:[NSString stringWithFormat:@"/Users/apple/Desktop/%@.plist", filename] atomically:YES];
 /** 常量数据 */
 #import "GDWConstant.h"
 
+/** 运行时 */
+#import "NSObject+GDWRuntime.h"
 
+#define GDWWriteToPlist(obj, filename) [obj writeToFile:[NSString stringWithFormat:@"/Users/apple/Desktop/%@.plist", filename] atomically:YES];
 
 /** 屏幕尺寸 */
 #define GDWScreenW [UIScreen mainScreen].bounds.size.width

@@ -24,6 +24,9 @@
 
 @property  (nonatomic,strong)  NSMutableArray * items;
 
+/* 自定义tabBar */
+@property (nonatomic,weak) GDWTabBar *customTabBar;
+
 @end
 
 @implementation GDWTabBarController
@@ -31,7 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+
     self.view.backgroundColor = [UIColor cyanColor];
     //1.添加自控制器.
     [self  setUpAllChildViewController];
@@ -39,7 +42,24 @@
     //2.设置tabBar
     [self  setUpTabBar];
     
+    
+    
+    //3.设置默认的选中控制器.
+    self.selectedIndex = 1;
+    
+    
 }
+/** 重写系统的selectedIndex属性的setter方法 */
+- (void)setSelectedIndex:(NSUInteger)selectedIndex{
+
+    [super  setSelectedIndex:selectedIndex];
+    
+    //修改自定义的tabBar内按钮的索引.
+    if (self.customTabBar.selectedIndex != selectedIndex) {//防止循环调用.
+        self.customTabBar.selectedIndex = selectedIndex;
+    }
+}
+
 #pragma mark   items懒加载.
 - (NSMutableArray *)items
 {
@@ -55,7 +75,7 @@
     
     //创建自定义导航条.
     GDWTabBar  *tabBar=[[GDWTabBar  alloc]  init];
-    
+    self.customTabBar = tabBar;
     tabBar.frame=self.tabBar.bounds;
     //tabBar.frame=self.tabBar.frame;
     
@@ -72,6 +92,7 @@
 {
     self.selectedIndex=sender.tag;
     //GDWLog(@"%@",sender.titleLabel.text);
+
 
 }
 // tabBar控制器的view即将显示的时候调用
@@ -97,7 +118,8 @@
     GDWHomeViewController *homeVc = [[GDWHomeViewController  alloc]  init];
     [self  addOneViewController:homeVc image:[UIImage  imageNamed:@"ic_home_normal"] seletedImage:[UIImage  imageNamed:@"ic_home_pressed"] title:@"首页"];
     //2.教学点
-    GDWTeachPositionController *teachPositionVc = [[GDWTeachPositionController  alloc]  init];
+    GDWTeachPositionController *teachPositionVc =[UIStoryboard  storyboardWithName:NSStringFromClass([GDWTeachPositionController  class]) bundle:nil].instantiateInitialViewController;
+    //GDWTeachPositionController *teachPositionVc = [[GDWTeachPositionController  alloc]  init];
     [self  addOneViewController:teachPositionVc image:[UIImage  imageNamed:@"ic_position_normal"] seletedImage:[UIImage  imageNamed:@"ic_position_pressed"] title:@"教学点"];
     //3.发现
     GDWDiscoverController *discoverVc = [[GDWDiscoverController  alloc]  init];

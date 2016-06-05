@@ -107,7 +107,6 @@ static  NSString * const  teachPictureCell = @"teachPictureCell";
     
     
     
-    //NSArray *teachPositionModels = [[DataTool  shareDataTool]   teachPositionModels];
     
 }
 

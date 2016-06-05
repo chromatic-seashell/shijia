@@ -51,6 +51,8 @@
 		18DA78951CF06361005AC6E8 /* GDWButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA78931CF06361005AC6E8 /* GDWButtonView.m */; };
 		18DA78991CF08B8B005AC6E8 /* GDWWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA78971CF08B8B005AC6E8 /* GDWWebViewController.m */; };
 		18DA789A1CF08B8B005AC6E8 /* GDWWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DA78981CF08B8B005AC6E8 /* GDWWebViewController.xib */; };
+		18DF02F21D047A0D0039929E /* GDWTeachPositionController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DF02F11D047A0D0039929E /* GDWTeachPositionController.storyboard */; };
+		18DF02F51D0488A80039929E /* NSObject+GDWRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF02F41D0488A80039929E /* NSObject+GDWRuntime.m */; };
 		18F2649E1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F2649D1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m */; };
 		18F264A01CE2D9680091B2FE /* GDWHomeTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F2649F1CE2D9680091B2FE /* GDWHomeTableHeaderView.xib */; };
 		18F264A41CE2E3160091B2FE /* GDWEventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F264A21CE2E3160091B2FE /* GDWEventCell.m */; };
@@ -156,6 +158,9 @@
 		18DA78961CF08B8B005AC6E8 /* GDWWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWWebViewController.h; sourceTree = "<group>"; };
 		18DA78971CF08B8B005AC6E8 /* GDWWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWWebViewController.m; sourceTree = "<group>"; };
 		18DA78981CF08B8B005AC6E8 /* GDWWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDWWebViewController.xib; sourceTree = "<group>"; };
+		18DF02F11D047A0D0039929E /* GDWTeachPositionController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GDWTeachPositionController.storyboard; sourceTree = "<group>"; };
+		18DF02F31D0488A80039929E /* NSObject+GDWRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GDWRuntime.h"; sourceTree = "<group>"; };
+		18DF02F41D0488A80039929E /* NSObject+GDWRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GDWRuntime.m"; sourceTree = "<group>"; };
 		18F2649C1CE2D95A0091B2FE /* GDWHomeTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWHomeTableHeaderView.h; sourceTree = "<group>"; };
 		18F2649D1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWHomeTableHeaderView.m; sourceTree = "<group>"; };
 		18F2649F1CE2D9680091B2FE /* GDWHomeTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDWHomeTableHeaderView.xib; sourceTree = "<group>"; };
@@ -314,6 +319,7 @@
 			children = (
 				1860504F1CDD853300944E8A /* GDWTeachPositionController.h */,
 				186050501CDD853300944E8A /* GDWTeachPositionController.m */,
+				18DF02F11D047A0D0039929E /* GDWTeachPositionController.storyboard */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -448,6 +454,8 @@
 		186050621CDDBE9300944E8A /* category */ = {
 			isa = PBXGroup;
 			children = (
+				18DF02F31D0488A80039929E /* NSObject+GDWRuntime.h */,
+				18DF02F41D0488A80039929E /* NSObject+GDWRuntime.m */,
 				186050651CDDBECC00944E8A /* UIView+GDWViewGeometry.h */,
 				186050661CDDBECC00944E8A /* UIView+GDWViewGeometry.m */,
 				183C42031CDED1D600ED20F3 /* NSDictionary+JSON.h */,
@@ -686,6 +694,7 @@
 				18B409EE1CEDDD60008DA7C9 /* 图片轮播器 in Resources */,
 				183C42111CDF53D400ED20F3 /* 教学秀和推荐活动.plist in Resources */,
 				18DA789A1CF08B8B005AC6E8 /* GDWWebViewController.xib in Resources */,
+				18DF02F21D047A0D0039929E /* GDWTeachPositionController.storyboard in Resources */,
 				1860506A1CDE4A8E00944E8A /* 钢琴课老师信息 in Resources */,
 				18F264A51CE2E3160091B2FE /* GDWEventCell.xib in Resources */,
 				18F264A01CE2D9680091B2FE /* GDWHomeTableHeaderView.xib in Resources */,
@@ -796,6 +805,7 @@
 				189FFCD41CE8C66C0021A377 /* GDWTeachPictureCollectionCell.m in Sources */,
 				183C42081CDED23200ED20F3 /* NSString+JSON.m in Sources */,
 				183C420D1CDF479500ED20F3 /* GDWTeacherModel.m in Sources */,
+				18DF02F51D0488A80039929E /* NSObject+GDWRuntime.m in Sources */,
 				18DA78941CF06361005AC6E8 /* GDWButtonUpDown.m in Sources */,
 				183C42051CDED1D600ED20F3 /* NSDictionary+JSON.m in Sources */,
 				18DA78991CF08B8B005AC6E8 /* GDWWebViewController.m in Sources */,

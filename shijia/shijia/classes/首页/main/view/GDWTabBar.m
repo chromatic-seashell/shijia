@@ -55,13 +55,18 @@
     }
     [self  setNeedsLayout];
 }
+#pragma mark - 内部按钮的监听方法
 - (void)btnClick:(GDWButton *)btn
 {
-    //改变按钮的选着状态.(按钮的选着状态由代码改变)
+    //1.改变按钮的选着状态.(按钮的选着状态由代码改变)
     _seletebtn.selected=NO;
     btn.selected=YES;
     _seletebtn=btn;
     
+    //2.按钮的索引
+    NSInteger index = [self.subviews indexOfObject:btn];
+    _selectedIndex = index;
+    NSLog(@"%ld",index);
     //通过代理在tabBarVC中切换界面
     if (_delegate  && [_delegate  respondsToSelector:@selector(tabBardidClick:)]) {
         [_delegate  tabBardidClick:btn];
@@ -69,6 +74,12 @@
 
 }
 
+#pragma mark - 重写setter方法
+- (void)setSelectedIndex:(NSInteger)selectedIndex{
+    _selectedIndex = selectedIndex;
+    GDWButton  *btn=  self.subviews[selectedIndex];
+    [self  btnClick:btn];
+}
 
 - (void)layoutSubviews
 {
