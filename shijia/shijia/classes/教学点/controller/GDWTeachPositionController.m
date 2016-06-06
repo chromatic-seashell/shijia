@@ -7,12 +7,21 @@
 //
 
 #import "GDWTeachPositionController.h"
+#import "GDWTeachPositionModel.h"
+#import "GDWTeachPositionCell.h"
 
-@interface GDWTeachPositionController ()
+@interface GDWTeachPositionController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+/** 教学点数据 */
+@property (nonatomic, strong) NSArray *teachPositionModels;
 
 @end
 
 @implementation GDWTeachPositionController
+
+#pragma mark - cell的identifier
+static  NSString * const  teachePositionCell=@"teachePositionCel";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,8 +31,21 @@
     //1.设置导航条
     [self  setUpNavBar];
     
-    NSLog(@"%@",NSStringFromCGRect(self.navigationController.navigationBar.frame));
+    //2.设置tableView
+    [self  setUpTableView];
+    
+//    NSLog(@"%@",NSStringFromCGRect(self.navigationController.navigationBar.frame));
 }
+#pragma mark - 懒加载
+- (NSArray *)teachPositionModels{
+    if (!_teachPositionModels) {
+        //从工具类中加载数据.
+        _teachPositionModels = [[DataTool  shareDataTool]  teachPositionModels];
+    }
+    return _teachPositionModels;
+}
+
+#pragma mark - 初始化
 - (void)setUpNavBar{
     //1.标题
     self.navigationItem.title = @"线下教学点";
@@ -48,11 +70,36 @@
 
 }
 
+- (void)setUpTableView{
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    //1.注册cell
+    [self.tableView  registerNib:[UINib  nibWithNibName:NSStringFromClass([GDWTeachPositionCell  class]) bundle:nil] forCellReuseIdentifier:teachePositionCell];
+    //2.设置属性
+    self.tableView.dataSource = self;
+    self.tableView.delegate = self;
+    //禁止控制器自动调整scrollView的内边距.
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.tableView.separatorStyle = UITableViewCellSelectionStyleNone;
+    self.tableView.rowHeight = 85;
+    //self.tableView.backgroundColor = [UIColor  lightGrayColor];//也可以在storyboard中修改背景颜色.
+
 }
+
+
+#pragma mark -  UITableViewDataSource
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    
+    return self.teachPositionModels.count;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    GDWTeachPositionCell *cell = [tableView dequeueReusableCellWithIdentifier:teachePositionCell ];
+    //取出模型
+    GDWTeachPositionModel *teachPositionModel = self.teachPositionModels[indexPath.row];
+    cell.teachPositionModel = teachPositionModel;
+    
+    return cell;
+}
+
 
 
 @end

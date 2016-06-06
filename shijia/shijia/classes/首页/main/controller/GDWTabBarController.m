@@ -118,7 +118,7 @@
     GDWHomeViewController *homeVc = [[GDWHomeViewController  alloc]  init];
     [self  addOneViewController:homeVc image:[UIImage  imageNamed:@"ic_home_normal"] seletedImage:[UIImage  imageNamed:@"ic_home_pressed"] title:@"首页"];
     //2.教学点
-    GDWTeachPositionController *teachPositionVc =[UIStoryboard  storyboardWithName:NSStringFromClass([GDWTeachPositionController  class]) bundle:nil].instantiateInitialViewController;
+    GDWTeachPositionController *teachPositionVc =[UIStoryboard  storyboardWithName:NSStringFromClass([GDWTeachPositionController  class]) bundle:nil].instantiateInitialViewController;//从storyboard加载控制器.
     //GDWTeachPositionController *teachPositionVc = [[GDWTeachPositionController  alloc]  init];
     [self  addOneViewController:teachPositionVc image:[UIImage  imageNamed:@"ic_position_normal"] seletedImage:[UIImage  imageNamed:@"ic_position_pressed"] title:@"教学点"];
     //3.发现

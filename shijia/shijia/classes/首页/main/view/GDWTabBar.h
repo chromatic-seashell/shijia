@@ -28,6 +28,5 @@
 /** 选中的按钮索引 */
 @property (nonatomic, assign) NSInteger selectedIndex;
 
-- (void)btnClick:(GDWButton *)btn;
 
 @end

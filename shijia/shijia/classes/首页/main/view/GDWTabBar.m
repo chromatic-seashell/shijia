@@ -66,8 +66,8 @@
     //2.按钮的索引
     NSInteger index = [self.subviews indexOfObject:btn];
     _selectedIndex = index;
-    NSLog(@"%ld",index);
-    //通过代理在tabBarVC中切换界面
+    
+    //3.通过代理在tabBarVC中切换界面
     if (_delegate  && [_delegate  respondsToSelector:@selector(tabBardidClick:)]) {
         [_delegate  tabBardidClick:btn];
     }

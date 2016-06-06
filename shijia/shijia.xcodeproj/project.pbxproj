@@ -21,6 +21,8 @@
 		18446C851D01D1C100323894 /* 教学点模型 in Resources */ = {isa = PBXBuildFile; fileRef = 18446C841D01D1C100323894 /* 教学点模型 */; };
 		18446C881D01D44200323894 /* GDWTeachPositionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18446C871D01D44200323894 /* GDWTeachPositionModel.m */; };
 		18446C8A1D01D52800323894 /* 教学点模型.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18446C891D01D52800323894 /* 教学点模型.plist */; };
+		184C553E1D05CBC30039FDA8 /* GDWTeachPositionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184C553C1D05CBC30039FDA8 /* GDWTeachPositionCell.m */; };
+		184C553F1D05CBC30039FDA8 /* GDWTeachPositionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184C553D1D05CBC30039FDA8 /* GDWTeachPositionCell.xib */; };
 		1860504B1CDC56EA00944E8A /* GDWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860504A1CDC56EA00944E8A /* GDWTabBarController.m */; };
 		1860504E1CDD841B00944E8A /* GDWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860504D1CDD841B00944E8A /* GDWHomeViewController.m */; };
 		186050511CDD853300944E8A /* GDWTeachPositionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186050501CDD853300944E8A /* GDWTeachPositionController.m */; };
@@ -99,9 +101,12 @@
 		183C42151CDF578F00ED20F3 /* GDWEventModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWEventModel.h; sourceTree = "<group>"; };
 		183C42161CDF578F00ED20F3 /* GDWEventModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWEventModel.m; sourceTree = "<group>"; };
 		18446C841D01D1C100323894 /* 教学点模型 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "教学点模型"; sourceTree = "<group>"; };
-		18446C861D01D44200323894 /* GDWTeachPositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTeachPositionModel.h; sourceTree = "<group>"; };
-		18446C871D01D44200323894 /* GDWTeachPositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTeachPositionModel.m; sourceTree = "<group>"; };
+		18446C861D01D44200323894 /* GDWTeachPositionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDWTeachPositionModel.h; path = "../../首页/model/GDWTeachPositionModel.h"; sourceTree = "<group>"; };
+		18446C871D01D44200323894 /* GDWTeachPositionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDWTeachPositionModel.m; path = "../../首页/model/GDWTeachPositionModel.m"; sourceTree = "<group>"; };
 		18446C891D01D52800323894 /* 教学点模型.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "教学点模型.plist"; sourceTree = "<group>"; };
+		184C553B1D05CBC30039FDA8 /* GDWTeachPositionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTeachPositionCell.h; sourceTree = "<group>"; };
+		184C553C1D05CBC30039FDA8 /* GDWTeachPositionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTeachPositionCell.m; sourceTree = "<group>"; };
+		184C553D1D05CBC30039FDA8 /* GDWTeachPositionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDWTeachPositionCell.xib; sourceTree = "<group>"; };
 		186050491CDC56EA00944E8A /* GDWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWTabBarController.h; sourceTree = "<group>"; };
 		1860504A1CDC56EA00944E8A /* GDWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDWTabBarController.m; sourceTree = "<group>"; };
 		1860504C1CDD841B00944E8A /* GDWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDWHomeViewController.h; sourceTree = "<group>"; };
@@ -327,6 +332,8 @@
 		1860503F1CDC31C800944E8A /* model */ = {
 			isa = PBXGroup;
 			children = (
+				18446C861D01D44200323894 /* GDWTeachPositionModel.h */,
+				18446C871D01D44200323894 /* GDWTeachPositionModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -334,6 +341,9 @@
 		186050401CDC31C800944E8A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				184C553B1D05CBC30039FDA8 /* GDWTeachPositionCell.h */,
+				184C553C1D05CBC30039FDA8 /* GDWTeachPositionCell.m */,
+				184C553D1D05CBC30039FDA8 /* GDWTeachPositionCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -371,8 +381,6 @@
 				183C42161CDF578F00ED20F3 /* GDWEventModel.m */,
 				18B409EF1CEDE09B008DA7C9 /* GDWCycPictureModel.h */,
 				18B409F01CEDE09B008DA7C9 /* GDWCycPictureModel.m */,
-				18446C861D01D44200323894 /* GDWTeachPositionModel.h */,
-				18446C871D01D44200323894 /* GDWTeachPositionModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -706,6 +714,7 @@
 				18A57F3C1CDBA26B005BEE8C /* Assets.xcassets in Resources */,
 				18B409D81CEDB18B008DA7C9 /* GDWHeaderView.xib in Resources */,
 				18DA78351CEFE837005AC6E8 /* subjects.plist in Resources */,
+				184C553F1D05CBC30039FDA8 /* GDWTeachPositionCell.xib in Resources */,
 				183C420F1CDF528400ED20F3 /* 教学秀和推荐活动 in Resources */,
 				18A57F3A1CDBA26B005BEE8C /* Main.storyboard in Resources */,
 			);
@@ -783,6 +792,7 @@
 				18F2649E1CE2D95A0091B2FE /* GDWHomeTableHeaderView.m in Sources */,
 				182E19F51CE49941007C0A4E /* GDWTeachPictureCell.m in Sources */,
 				18F264A41CE2E3160091B2FE /* GDWEventCell.m in Sources */,
+				184C553E1D05CBC30039FDA8 /* GDWTeachPositionCell.m in Sources */,
 				18A57F371CDBA26B005BEE8C /* ViewController.m in Sources */,
 				18A57F341CDBA26B005BEE8C /* AppDelegate.m in Sources */,
 				18A57F311CDBA26B005BEE8C /* main.m in Sources */,
