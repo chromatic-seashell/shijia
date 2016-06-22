@@ -10,6 +10,8 @@
 #import "GDWTeachPositionModel.h"
 #import "GDWTeachPositionCell.h"
 
+#import "GDWMapController.h"
+
 @interface GDWTeachPositionController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -67,8 +69,12 @@ static  NSString * const  teachePositionCell=@"teachePositionCel";
 - (void)mapBtnClick:(UIButton *)sender{
 
     sender.selected = !sender.selected;
-
+    //跳转到地图控制器上
+    GDWMapController *mapVc = [[GDWMapController  alloc] init];
+    mapVc.teachPositionModels = self.teachPositionModels;
+    [self.navigationController  pushViewController:mapVc animated:YES];
 }
+
 
 - (void)setUpTableView{
 

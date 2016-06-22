@@ -25,7 +25,8 @@
 #import "NSObject+GDWRuntime.h"
 
 #define GDWWriteToPlist(obj, filename) [obj writeToFile:[NSString stringWithFormat:@"/Users/apple/Desktop/%@.plist", filename] atomically:YES];
-
+/** 判断设备版本号 */
+#define ISiOS(version) ([[UIDevice currentDevice].systemVersion floatValue] >= version)
 /** 屏幕尺寸 */
 #define GDWScreenW [UIScreen mainScreen].bounds.size.width
 #define GDWScreenH [UIScreen mainScreen].bounds.size.height

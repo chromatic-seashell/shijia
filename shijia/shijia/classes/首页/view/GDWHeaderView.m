@@ -25,7 +25,11 @@
 
 }
 
-
+//- (void)setFrame:(CGRect)frame{
+//
+//  GDWLogFuc
+//    [super  setFrame:frame];
+//}
 //- (CGFloat)heightForButtonView{
 //
 //
